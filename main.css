@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    background-color: #e7e7e7;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 640px;
+    margin: 5rem auto;
+}
+
+section .container .cabecalho_titulo_pagina{
+    display: inline-flex;
+    height: 3rem;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+section .container .cabecalho_titulo_pagina img{
+    height: 50%;
+}
+
+section .container form{
+    display: inline-flex;
+    gap: 1rem;
+}
+
+section .container form input,
+section .container form button{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    font-weight: bold;
+}
+
+section .container form input{
+    border-bottom: 2px solid;
+}
+
+section .container form button{
+    background-color: #00ff0d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+/* Tabela */
+table{
+    width: 100%;
+}
+
+th{
+    border-bottom: 2px solid;
+}
+
+th, td{
+    padding: 1rem;
+}
+
+td{
+    text-align: center;
+    border-bottom: 1px solid #75757580;
+}
+
+td.valor-nome-atividade{
+    text-transform: capitalize;
+}
+
+section .container table tbody tr td img{
+    width: 2rem;
+}
+
+.resultado{
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.aprovado{
+    background-color: #00ff0d;
+}
+
+.reprovado{
+    background-color: #ff2727;
+}
